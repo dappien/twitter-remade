@@ -1,0 +1,36 @@
+@import '../../base';
+
+.sidebar{
+    width: 220px;
+    position: fixed;
+    &{
+        @media(max-width:$breakpoint-sm) {
+           display: none;
+        }
+    }
+    button{
+        padding: 10px;
+        margin:10px;
+        width: 90%;
+        border-radius: 30px;
+        border: none;
+        background-color: $twitter-blue;
+        color: white;
+        font-size: 17px;
+        line-height: 20px;
+        &{
+            @media(max-width:$breakpoint-lg) {
+               display: none;
+            }
+        }
+       
+    }
+    button:hover{
+        background-color: #1286ce;
+    }
+    &{
+        @media(max-width:$breakpoint-lg) {
+           width: 25px;
+        }
+    }
+}

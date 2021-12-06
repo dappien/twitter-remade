@@ -1,0 +1,30 @@
+@import '../../base';
+
+.sidebarOptions{
+    display: flex;
+    padding: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+    &:hover:not(:first-child){
+        background-color: rgb(238, 238, 238);
+        border-radius: 25px;
+    }
+ 
+    div{
+        margin-right: 10px;
+        padding: 0px 10px;
+    }
+    h2{
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 400;
+        color:#0f1419;
+        &{
+            @media(max-width:$breakpoint-lg) {
+               display: none;
+            }
+        }
+        
+    }
+    
+}

@@ -1,0 +1,86 @@
+@import '../../base';
+
+.clickaway__block{
+    display: flex;
+    width: 220px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 35px;
+    background-color: #4158D0;
+    background-image: linear-gradient(315deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    transition: all 1s;
+    animation: all 1s;
+
+    &:hover{
+        background-color: #FFCC70 ;
+        background-image: linear-gradient(315deg, #FFCC70 0%, #C850C0 46%, #4158D0 100%);   
+    }
+
+    img{
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        margin-right: 10px;
+    }
+
+    div{
+        margin-right: 15px;
+       
+
+        &{
+            @media(max-width:$breakpoint-lg) {
+               margin-left: 0px;
+            }
+        }
+
+        h3{
+            font-size: 15px;
+            line-height: 20px;
+        }
+        h4{
+            font-size: 15px;
+            line-height: 20px;
+            color: #ffffff;
+            font-weight: 400;
+        }
+    }
+
+}
+
+
+.clickaway__block--inline{
+    display: flex;
+    width: 250px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 25px;
+
+    img{
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        margin-right: 10px;
+    }
+
+    div{
+        margin-right: 45px;
+        h3{
+            font-size: 15px;
+            line-height: 20px;
+        }
+        h4{
+            font-size: 15px;
+            line-height: 20px;
+            color: #b6b6b6;
+            font-weight: 400;
+        }
+    }
+    
+}
+
+
+.clickaway__singleBlock{
+    padding: 20px;
+    border-top: $border-grey;
+
+}

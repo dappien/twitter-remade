@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+$border-grey:0.4px solid #f0f0f0;
+$twitter-blue:#1DA1F2;
+$soft-text: #536471;
+$background:rgb(231, 231, 231);
+$breakpoint-xs : 600px;
+$breakpoint-sm:768px;
+$breakpoint-md:992px;
+$breakpoint-lg:1200px;
+
+*{
+  margin:0;
+}
+
+body {
+  background-attachment: fixed;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.1px;
+}
+

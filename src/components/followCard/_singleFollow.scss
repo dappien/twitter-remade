@@ -1,0 +1,38 @@
+.follow{
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    button{
+        padding: 0px 25px;
+        border: none;
+        background-color: black;
+        border-radius: 25px;
+        color:white;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+.channel__logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.follow__block{
+    display: flex;
+}
+
+.follow__info{
+    h3{
+        font-size: 15px;
+        line-height: 20px;
+    }
+    h4{
+        color:#536471;
+        font-size: 15px;
+        line-height: 20px;
+        font-weight: 400;
+    }
+}
